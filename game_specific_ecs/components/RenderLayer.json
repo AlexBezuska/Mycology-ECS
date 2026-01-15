@@ -1,0 +1,9 @@
+{
+  "components": {
+    "RenderLayer": {
+      "type": "RenderLayer",
+      "layer": "game",
+      "order": 1
+    }
+  }
+}

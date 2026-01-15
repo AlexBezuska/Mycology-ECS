@@ -1,0 +1,60 @@
+{
+  "components": {
+    "Tag_hello_world": {
+      "type": "Tag",
+      "value": "ui.hello_world"
+    },
+
+    "UITransform_center_top_down_100": {
+      "type": "UITransform",
+      "size": [0, 0],
+      "anchored_position": [0, 100],
+      "anchor": "middle_center"
+    },
+
+     "UITransform_center_top_down_200": {
+      "type": "UITransform",
+      "size": [0, 0],
+      "anchored_position": [0, 200],
+      "anchor": "middle_center"
+    },
+
+    "TextContent_hello_world": {
+      "type": "TextContent",
+      "value": "Hello, World from"
+    },
+
+    "TextContent_mycologyECS": {
+      "type": "TextContent",
+      "value": "Mycology ECS!"
+    },
+
+   
+
+    "TextStyle_h1": {
+      "type": "TextStyle",
+      "font": "default",
+      "font_size": 72,
+      "letter_spacing": 0,
+      "line_height": 1.0
+    },
+
+    "TextStyle_h2": {
+      "type": "TextStyle",
+      "font": "default",
+      "font_size": 48,
+      "letter_spacing": 0,
+      "line_height": 1.0
+    },
+
+    "TextColor_magenta": {
+      "type": "TextColor",
+      "value": "#FF00FFFF"
+    },
+     "TextColor_primary": {
+      "type": "TextColor",
+      "value": "#FFFFFF"
+    }
+
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "components": {
+    "AI": {
+      "type": "AI",
+      "behavior": "patrol"
+    }
+  }
+}

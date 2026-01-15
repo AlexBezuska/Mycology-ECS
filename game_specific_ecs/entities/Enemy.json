@@ -1,0 +1,10 @@
+{
+  "id": "enemy",
+  "name": "Enemy",
+  "type": "npc",
+  "create_on_start": false,
+  "components": ["Transform", "Health", "AI", "RenderLayer"],
+  "object_pooling": true,
+  "pool_initial_size": 5,
+  "pool_max_size": 20
+}

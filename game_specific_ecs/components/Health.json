@@ -1,0 +1,9 @@
+{
+  "components": {
+    "Health": {
+      "type": "Health",
+      "max": 100,
+      "current": 100
+    }
+  }
+}

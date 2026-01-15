@@ -1,0 +1,8 @@
+{
+  "components": {
+    "Input": {
+      "type": "Input",
+      "scheme": "keyboard"
+    }
+  }
+}

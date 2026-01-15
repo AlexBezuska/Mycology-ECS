@@ -1,0 +1,31 @@
+{
+    "entities": [
+        
+        {
+            "id": "ui_text_label_hello",
+            "name": "Hello World Label",
+            "create_on_start": true,
+            "components": [
+                "Tag_hello_world",
+                "UITransform_center_top_down_200",
+                "TextContent_hello_world",
+                "TextStyle_h2",
+                "TextColor_magenta",
+                "RenderLayer_ui"
+            ]
+        },
+           {
+            "id": "ui_text_label_hello_2",
+            "name": "Hello World Label",
+            "create_on_start": true,
+            "components": [
+                "Tag_hello_world",
+                "UITransform_center_top_down_100",
+                "TextContent_mycologyECS",
+                "TextStyle_h1",
+                "TextColor_primary",
+                "RenderLayer_ui"
+            ]
+        }
+    ]
+}

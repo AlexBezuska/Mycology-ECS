@@ -1,0 +1,19 @@
+{
+  "components": {
+    "RenderLayer_ui": {
+      "type": "RenderLayer",
+      "layer": "ui",
+      "order": 0
+    },
+    "RenderLayer_player": {
+      "type": "RenderLayer",
+      "layer": "player",
+      "order": 0
+    },
+      "RenderLayer_default": {
+      "type": "RenderLayer",
+      "layer": "default",
+      "order": 0
+    }
+  }
+}
