@@ -4,6 +4,17 @@
       "type": "RenderLayer",
       "layer": "game",
       "order": 1
+    },
+     "basic_cube": {
+      "primitive": "cube"
+    },
+     "material_red": {
+      "material": "basic",
+      "color":"red"
+    },
+      "material_purple": {
+      "material": "basic",
+      "color":"purple"
     }
   }
 }

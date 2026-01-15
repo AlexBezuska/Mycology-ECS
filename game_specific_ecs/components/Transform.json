@@ -1,8 +1,13 @@
 {
   "components": {
-    "Transform": {
+    "enemies_spawn_point": {
       "type": "Transform",
-      "position": [0, 0],
+      "position": [0, -1],
+      "rotation": 0
+    },
+      "player_start": {
+      "type": "Transform",
+      "position": [0, 2],
       "rotation": 0
     }
   }

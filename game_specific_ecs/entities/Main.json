@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "name": "Enemy",
+      "type": "npc",
+      "create_on_start": false,
+      "components": [
+        "enemies_spawn_point",
+        "Health",
+        "AI",
+        "RenderLayer",
+        "basic_cube",
+        "material_red"
+      ],
+      "object_pooling": true,
+      "pool_initial_size": 5,
+      "pool_max_size": 20
+    },
+    {
+      "name": "Player",
+      "type": "character",
+      "create_on_start": true,
+      "components": [
+        "player_start",
+        "Health",
+        "Input",
+        "RenderLayer",
+        "basic_cube",
+        "material_purple"
+      ],
+      "object_pooling": false,
+      "pool_initial_size": 0,
+      "pool_max_size": 0
+    },
+    {
+      "name": "Hello World Label",
+      "create_on_start": true,
+      "components": [
+        "Tag_hello_world",
+        "UITransform_center_top_down_200",
+        "TextContent_hello_world",
+        "TextStyle_h2",
+        "TextColor_magenta",
+        "RenderLayer_ui"
+      ]
+    },
+    {
+      "name": "Hello World Label",
+      "create_on_start": true,
+      "components": [
+        "Tag_hello_world",
+        "UITransform_center_top_down_100",
+        "TextContent_mycologyECS",
+        "TextStyle_h1",
+        "TextColor_primary",
+        "RenderLayer_ui"
+      ]
+    }
+  ]
+}
